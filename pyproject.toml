@@ -1,0 +1,16 @@
+[project]
+name = "ff3-project"
+version = "0.1.0"
+description = "Comparing CAPM and Fama-French three-factor strategies"
+readme = "README.md"
+authors = [
+    { name = "Yuxuan Weng", email = "332237472+Duby27@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "statsmodels>=0.15.0",
+    "yfinance>=1.7.0",
+]
